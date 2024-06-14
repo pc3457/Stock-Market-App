@@ -1,4 +1,4 @@
-# Stock-Market-App
+# Stock Market and Personalized portfolio
 
 INTRODUCTION
 Overview:
@@ -69,4 +69,78 @@ based on improved prediction accuracy and user adoption.
 • Legal and Ethical Feasibility:
 • Compliance: Ensure the system adheres to financial regulations and data privacy laws.
 • Ethical Use: Address ethical considerations in the use of prediction algorithms and data handling.
+<img width="545" alt="Screenshot 2024-06-14 at 11 38 56 AM" src="https://github.com/pc3457/Stock-Market-App/assets/146313699/48d61362-9bf9-4a3d-b64d-4e6de5bf8150">
+
+Tools and Technologies:
+• Programming Languages: Primarily used Python for back-end development and
+JavaScript and HTML/CSS for the front-end.
+• Frameworks and Libraries:
+• Flask: For developing the back-end web application and handling server-side logic.
+• HTML/CSS: Used for building a responsive and dynamic front-end user interface. •
+Socket.io: Enabled real-time communication between the client and server.
+• yfinance: For fetching and handling stock market data.
+• Version Control: Utilized Git and GitHub for version control, facilitating collaborative
+development and code management.
+• IDE: Primarily used Visual Studio Code for coding due to its extensive features and
+extensions.
+
+User Information Storage:
+AWS S3 Storage for User Login Details:
+• User login details are stored securely in an AWS S3 bucket.
+• The S3 bucket is configured to restrict public access and ensure data security.
+• An example of the S3 bucket structure is shown below:
+
+<img width="743" alt="Screenshot 2024-06-14 at 11 41 53 AM" src="https://github.com/pc3457/Stock-Market-App/assets/146313699/3e35cd2b-70da-4be0-8736-d3ab7484265a">
+
+Every user will have their portfolio and login credentials stored as shown below:
+
+<img width="743" alt="Screenshot 2024-06-14 at 11 42 41 AM" src="https://github.com/pc3457/Stock-Market-App/assets/146313699/8985f592-b241-4b0f-b698-2f1e93ad3699">
+
+<img width="743" alt="Screenshot 2024-06-14 at 11 43 15 AM" src="https://github.com/pc3457/Stock-Market-App/assets/146313699/6842ef09-74f1-456d-b08f-1dbee3d602d3">
+
+<img width="743" alt="Screenshot 2024-06-14 at 11 43 49 AM" src="https://github.com/pc3457/Stock-Market-App/assets/146313699/3c55778a-40e4-43c2-9439-3de71a6c5cee">
+
+PEER TO PEER (USING SOCKET.IO)
+• Introduction to socket.io:
+• Socket.io is a JavaScript library for real-time, bidirectional, event-based communication
+between clients and servers.
+• Implementation:
+• Server-Side:
+• Initialization: Configured on the JavaScript server.
+• Event Handling: Managed events like connect and disconnect. 
+• Broadcasting:
+Real-time chat updates to all connected clients.
+• Client-Side:
+• Connection: Established from the JavaScript frontend.
+• Event Listeners: Handled real-time updates and interactions. • Data Display:
+Updated UI with latest chat updates.
+
+• Benefits:
+• Real-Time Updates: Provides instant information.
+• Efficient Communication: Facilitates smooth data exchange.
+• Enhanced User Experience: Dynamic UI updates without page refresh.
+• Challenges & Solutions:
+• Multiple Connections: Managed efficiently with load balancing.
+• Data Consistency: Ensured with robust validation and synchronization. 
+•Performance: Optimized to minimize latency.
+
+<img width="774" alt="Screenshot 2024-06-14 at 12 36 45 PM" src="https://github.com/pc3457/Stock-Market-App/assets/146313699/b4aeada4-67a9-459b-a8f1-ea91d10b6f20">
+
+<img width="774" alt="Screenshot 2024-06-14 at 12 37 19 PM" src="https://github.com/pc3457/Stock-Market-App/assets/146313699/27a3fdcd-eb6c-4f8a-9032-4dead9688dfe">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
